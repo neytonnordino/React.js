@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 20px;
+  height: 70px;
+  background: #1c1c1c;
+}
+
+.nav-header h1 {
+  font-size: 2em;
+  color: rgb(0, 208, 255);
+}
+
+main {
+  margin: 50px;
+  background-image: url(assets/react.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 180px;
+}
+
+.nav-list {
+  padding: 0 50px;
+}
+
+
+
+
