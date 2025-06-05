@@ -31,7 +31,9 @@ header img {
 }
 
 .container .image img {
-  width: 150px;
+  width: 120px;
+  border-radius: 5px;
+  height: 130px;
 }
 
 .card {
