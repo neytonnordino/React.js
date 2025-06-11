@@ -4,19 +4,20 @@ import Entry from "./components/Entry";
 import data from "./components/data";
 
 function App() {
-  // const { img, title, country, googleMapsLink, dates, text } = dataItem;
   const dataElement = data.map((dataItem) => {
     return (
       <Entry
-        img={dataItem.img}
-        // img={{
-        //   src: dataItem.img.src
-        // }}
-        title={dataItem.title}
-        country={dataItem.country}
-        googleMapsLink={dataItem.googleMapsLink}
-        dates={dataItem.dates}
-        text={dataItem.text}
+      key={dataItem.id}
+      {...dataItem}
+        // img={dataItem.img}
+        // // img={{
+        // //   src: dataItem.img.src
+        // // }}
+        // title={dataItem.title}
+        // country={dataItem.country}
+        // googleMapsLink={dataItem.googleMapsLink}
+        // dates={dataItem.dates}
+        // text={dataItem.text}
       />
     );
   });

@@ -8,13 +8,13 @@ export default function Entry(props) {
         <div className="card">
           <div className="location">
             <img src="/assets/marker.png" alt="" />
-            <h4>{props.title}</h4>
-            <a href={props.googleMapsLink} target="blank">
+            <h4>{props.country}</h4>
+            <a href={props.googleMapsLink} target="_blank">
               View on Google Maps
             </a>
           </div>
-          <h2>{props.country}</h2>
-          <span className="date">{props.date}</span>
+          <h2>{props.title}</h2>
+          <span>{props.date}</span>
           <p>{props.text}</p>
         </div>
       </div>
